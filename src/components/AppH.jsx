@@ -5,7 +5,7 @@ import { Section } from "./Section/Section";
 import { FormHooks } from "./Form/FormHoocks";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchContacts } from "redux/Operations";
-import { SelectIsLoading,Selectitems } from "redux/Selectors";
+import { SelectIsLoading } from "redux/Selectors";
 import { Bars } from "react-loader-spinner";
 
 
