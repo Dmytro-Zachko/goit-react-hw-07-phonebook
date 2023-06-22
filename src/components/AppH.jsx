@@ -10,7 +10,6 @@ import { Bars } from "react-loader-spinner";
 
 
 export const AppH = () => {
-  const contacts = useSelector(Selectitems);
  const isLoading = useSelector(SelectIsLoading);
   const dispatch = useDispatch()
 
@@ -46,9 +45,7 @@ export const AppH = () => {
           <span>Loading...</span>
         </div>
       )}
-
-        
-          <ContactList />
+      <ContactList />
     </>
   );
 }
